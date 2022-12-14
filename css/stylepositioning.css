@@ -1,0 +1,115 @@
+html {
+  background-color: rgb(138, 190, 175);
+  font-family: "monaco", monospace;
+  font-size: 120%;
+  color: rgb(50, 50, 50);
+}
+
+.h1home {
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+  width: 99%;
+}
+
+.home {
+  width: 99%;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(50, 50, 50);
+}
+
+.home:hover {
+  color: rgb(150, 150, 150);
+}
+
+.Itslearning {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+
+}
+
+.oefening {
+  margin-left: 10%;
+  margin-right: 10%;
+  top: auto;
+  width: 1200px;
+  height: 1000px;
+  background-color: rgb(150, 150, 150);
+}
+
+.boven {
+  z-index: 4;
+  color: rgb(138, 190, 175);
+  background-color: rgb(50, 50, 50);
+  text-align: center;
+  position: fixed;
+  width: 1200px;
+}
+
+.relatief {
+  z-index: 3;
+  background-color: rgb(138, 190, 175);
+  width: 300px;
+  height: 150px;
+  position: relative;
+  top: 40px;
+  left: 400px;
+  text-align: right;
+} 
+
+.absoluut {
+  z-index: 8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  color: black;
+  width: 90px;
+  height: 50px;
+}
+
+.relatief4 {
+  z-index: 4;
+  background-color: white;
+  position: relative;
+  top: 200px;
+  left: 400px;
+  width: 700px;
+  height: 500px;
+}
+
+.vierkant {
+  position: relative;
+  background-color: lightblue;
+  top: 0px;
+  left: 150px;
+  width: 400px;
+  height: 400px;
+}
+
+.rondje {
+  background-color: salmon;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 50px;
+  left: 250px;
+  border-radius: 50%;
+}
+
+.driehoek {
+  position: relative;
+  bottom: 100px;
+
+  width:0px;
+  height:0px;
+  border-top:solid 200px transparent;
+  border-right:solid 200px transparent;
+  border-bottom:solid 200px orangered;
+  border-left:solid 200px transparent;
+  }
