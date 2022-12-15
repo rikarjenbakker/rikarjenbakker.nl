@@ -2,7 +2,7 @@ html {
     background-color: rgb(138, 190, 175);
     color: rgb(50, 50, 50);
     font-family: "monaco", monospace;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 h2 {
@@ -33,8 +33,8 @@ ul {
     text-align: center;
     margin: auto;
     margin-top: 6%;
-    width: fit-content;
-    min-width: auto;
+    width: 25.5%;
+    min-width: fit-content;
     height: fit-content;
     padding-left: 0px;
     line-height: 200%;
@@ -121,4 +121,41 @@ iframe {
     text-align: center;
     color: rgb(138, 190, 175);
     background-color: rgb(50, 50, 50);
+}
+
+.rikkie {
+
+    width: 10%;
+    height: auto;
+    display: block;
+    float: right;
+    margin-top: -11%;
+    margin-right: 20%;
+}
+
+@media only screen and (max-width:1250px){
+
+    html{
+        font-size: 110%;
+    }
+
+    .rikkie{
+        width: 12%;
+        margin-right: 10%;
+        margin-top: -5%;
+    }
+
+}
+
+@media only screen and (max-width: 950px){
+    
+    html{
+        font-size: 90%;
+    }
+   
+    .rikkie {
+        float: none;
+        width: 30%;
+        margin: auto;
+    }
 }
